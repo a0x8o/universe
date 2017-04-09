@@ -1,0 +1,99 @@
+* {
+    font-family: "Open sans", "Helvetica Neue" !important;
+}
+
+code {
+    font-family: monospace !important;
+    font-size: 14px;
+}
+
+code.bash {
+    font-size: 14px;
+}
+
+.embedded div.wy-side-nav-search a.icon-home {
+    display: none;
+}
+
+.embedded .wy-side-nav-search {
+    background-color: #505050;
+}
+
+.embedded .wy-nav-top {
+    display: none;
+}
+
+.wy-nav-top {
+    background: #0076D0 !important;
+}
+
+.wy-nav-side {
+    background: #505050 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.wy-nav-content {
+    max-width: 1000px;
+}
+
+.wy-side-nav-search {
+    background-color: #505050;
+}
+
+.wy-side-nav-search a {
+    background: url(../img/logo.png) no-repeat center;
+    background-size: 65px;
+    height: 70px;
+    color: transparent;
+}
+
+.wy-side-nav-search a:hover {
+    background: url(../img/logo.png) no-repeat center;
+    background-size: 65px;
+    height: 70px;
+    color: transparent;
+}
+
+.wy-side-nav-search a.icon.icon-home:before {
+    content: '';
+}
+
+.wy-breadcrumbs-aside {
+    display: none !important;
+}
+
+.wy-side-nav-search input[type=text] {
+    border: 1px solid #E2E2E2;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.wy-menu-vertical a:active {
+    background-color: #0076D0 !important;
+}
+
+.rst-versions {
+    border-top-color: #505050 !important;
+}
+
+.rst-current-version {
+    background: #505050 !important;
+}
+
+.rst-current-version a.icon-github {
+    display: none;
+}
+
+.subnav a {
+    color: #FFFFFF !important;
+    letter-spacing: 0.1em;
+}
+
+.subnav a.current {
+    color: #2F2F2F !important;
+}
+
+.subnav a.current,
+.subnav li.current li a {
+    color: #2F2F2F !important;
+}

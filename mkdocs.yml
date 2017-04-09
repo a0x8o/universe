@@ -1,0 +1,68 @@
+site_name: Netsil AOC Documentation
+site_url: http://netsil.io/docs
+site_description: Netsil AOC Documentation
+site_author: Netsil Inc.
+
+theme: readthedocs
+
+repo_url: https://github.com/netsil/readthedocs
+
+pages:
+- Home: index.md
+- Setup:
+    - Installation: installation.md
+    - Collectors: collectors.md
+    - Single Container Images: single-container-images.md
+    - Tagging Infrastructure: tagging-infrastructure.md
+- APIs:
+    - Alerts Overview: apis/alerts_overview.md
+    - Alert Rules: apis/alert_rules.md
+    - Alert Templates: apis/alert_templates.md
+    - Alert Instances: apis/alert_instances.md
+    - Authentication: apis/authentication.md
+    - Queries: apis/query.md
+    - Services: apis/services.md
+- Cookbooks:
+    - Metric Analytics: metric-analytics.md
+    - StatsD Metrics: statsd-metrics.md
+- Administration:
+    - Administration: administration.md
+    - Troubleshooting: troubleshooting.md
+- User guide:
+    - Alerts: user_guide/alerts.md
+    - Analytics: user_guide/analytics.md
+    - Dashboards: user_guide/dashboards.md
+    - Expressions: user_guide/expressions.md
+    - Filters and Groups: user_guide/filters_and_groups.md
+    - Subqueries: user_guide/sub_query.md
+    - Topology: user_guide/topology.md
+- Datasources:
+    - HTTP: datasources/http.md
+    - Network TCP: datasources/network_tcp.md
+    - DNS: datasources/dns.md
+    - MySQL: datasources/mysql.md
+    - PostgreSQL: datasources/postgresql.md
+    - Thrift: datasources/thrift.md
+    - Memcached: datasources/memcached.md
+    - Netsil AOC: datasources/netsil_aoc.md
+- About:
+    - Release Notes: release-notes.md
+    - License: license.md
+    - Third Party Licenses: third-party-licenses.md
+
+extra_css:
+    - css/netsil.css
+
+extra_javascript:
+    - js/netsil.js
+
+site_favicon: img/favicon.ico
+
+markdown_extensions:
+    - toc:
+        permalink: True
+    - admonition
+
+copyright: Copyright &copy; 2016 <a href="http://www.netsil.com">Netsil Inc.</a>
+
+dev_addr: 0.0.0.0:8000
